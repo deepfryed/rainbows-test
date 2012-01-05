@@ -65,34 +65,35 @@ Document Path:          /
 Document Length:        13 bytes
 
 Concurrency Level:      10
-Time taken for tests:   1.008 seconds
+Time taken for tests:   0.986 seconds
 Complete requests:      2000
 Failed requests:        0
 Write errors:           0
 Total transferred:      260000 bytes
 HTML transferred:       26000 bytes
-Requests per second:    1984.07 [#/sec] (mean)
-Time per request:       5.040 [ms] (mean)
-Time per request:       0.504 [ms] (mean, across all concurrent requests)
-Transfer rate:          251.88 [Kbytes/sec] received
+Requests per second:    2029.13 [#/sec] (mean)
+Time per request:       4.928 [ms] (mean)
+Time per request:       0.493 [ms] (mean, across all concurrent requests)
+Transfer rate:          257.60 [Kbytes/sec] received
 
 Connection Times (ms)
               min  mean[+/-sd] median   max
-Connect:        0    1   1.6      1       9
-Processing:     1    4   3.2      2      31
-Waiting:        0    3   3.2      2      30
-Total:          1    5   3.4      4      31
+Connect:        0    0   0.1      0       1
+Processing:     1    5   4.5      4      34
+Waiting:        1    4   3.8      3      34
+Total:          1    5   4.5      4      34
 
 Percentage of the requests served within a certain time (ms)
   50%      4
-  66%      5
-  75%      7
-  80%      8
-  90%     10
-  95%     11
-  98%     13
-  99%     15
- 100%     31 (longest request)
+  66%      4
+  75%      5
+  80%      5
+  90%      6
+  95%     14
+  98%     24
+  99%     27
+ 100%     34 (longest request)
+
 ##########################################################################################
 testing thin
 ##########################################################################################
