@@ -1,5 +1,5 @@
 Rainbows! do
-  use :ThreadPool
+  use :EventMachine
   worker_processes 2
   worker_connections 32
   timeout 30
